@@ -249,52 +249,101 @@ The above copyright notice and this permission notice shall be included in all c
                   <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSeQsfJ592J7OlEynHh98miBV-lmEp0nQ6CPUl0zJU5352B1Og/formResponse" method="PUSH" class="form" onsubmit="submitForm()">      
             
                     <div class="form-group">
-                      <label for="fullname" class="bmd-label-floating">Tên chương trình</label>
-                      <input id="fullname" name="entry.919627567" type="text" placeholder="Chương trình tiếp sức mùa thi" class="form-control bmd-label-floating" required>
+                      <label for="organize" class="bmd-label-floating">Đơn vị</label>
+                      <select id="organize" name="entry.185259288" class="form-control bmd-label-floating" required style="line-height: 20px;">
+                        <option value="">- - -Chọn Đơn Vị- - -</option>
+                        <option>LCH khoa Ngoại Ngữ</option>
+                        <option>LCH khoa Đào tạo Chất kượng cao</option>
+                        <option>LCH khoa Cơ khí Chế tạo máy</option>
+                        <option>LCH khoa Điện - Điện tử</option>
+                        <option>LCH khoa Cơ khí Động lực</option>
+                        <option>LCH khoa Công nghệ Hóa học và Thực phẩm</option>
+                        <option>LCH khoa Xây dựng</option>
+                        <option>LCH khoa In và Truyền thông</option>
+                        <option>LCH khoa Thời trang và Du lịch</option>
+                        <option>LCH khoa Công nghệ Thông tin</option>
+                        <option>LCH khoa Kinh tế</option>
+                        <option>LCH khoa Khoa học ứng dụng</option>
+                        <option>LCH SV Ký túc xá</option>
+                        <option>LCH SV Ngoại trú</option>
+                        <option>LCH Kỹ năng</option>
+                        <option>Đội Công tác xã hội</option>
+                        <option>CLB Nghiên cứu khoa học</option>
+                        <option>CLB Thể thao điện tử</option>
+                        <option>CLB Người dẫn chương trình</option>
+                        <option>CLB Vovinam</option>
+                        <option>CLB Guitar</option>
+                        <option>CLB Võ Tây Sơn Bình Định</option>
+                        <option>CLB Ảo thuật</option>
+                        <option>CLB Anh văn giao tiếp - ESC</option>
+                      </select>
+                      <span class="form-message"></span>
+                    </div>
+
+                    
+                    <div class="form-group">
+                      <label for="month" class="bmd-label-floating">Đăng ký hoạt động tháng</label>
+                      <select id="month" name="entry.185259288" class="form-control bmd-label-floating" required style="line-height: 20px;">
+                        <option value="">- - -Chọn- - -</option>
+                        <option>Tháng 9/2021</option>
+                        <option>Tháng 10/2021</option>
+                        <option>Tháng 11/2021</option>
+                        <option>Tháng 12/2021</option>
+                        <option>Tháng 01/2022</option>
+                        <option>Tháng 02/2022</option>
+                        <option>Tháng 3/2022</option>
+                        <option>Tháng 4/2022</option>
+                        <option>Tháng 5/2022</option>
+                        <option>Tháng 6/2022</option>
+                      </select>
+                    </div> 
+            
+                    <div class="form-group">
+                      <label for="cap" class="bmd-label-floating">Nội dung báo cáo cấp nào</label>
+                      <select id="cap" name="entry.185259288" class="form-control bmd-label-floating" required style="line-height: 20px;">
+                        <option value="">- - -Chọn- - -</option>
+                        <option>Cấp trường</option>
+                        <option>Cấp cơ sở</option>
+                      </select>
+                      <span class="form-message"></span>
+                    </div> 
+
+                    <div class="form-group">
+                      <label for="tong_hd" class="bmd-label-floating">Tổng hoạt động báo cáo</label>
+                      <input id="tong_hd" name="entry.635749895" type="number" placeholder="5" class="form-control bmd-label-floating" required>
+                      <span class="form-message"></span>
+                    </div> 
+
+                    <div class="form-group">
+                      <label for="activity" class="bmd-label-floating">Các nội dung hoạt động trọng tâm tháng sau</label>
+                      <textarea id="activity" name="entry.271436939" class="form-control" rows="5" placeholder="Viết mô tả hoạt động chương trình của bạn ở đây..." required></textarea>
                       <span class="form-message"></span>
                     </div>
 
                     <div class="form-group">
-                      <label for="quantity" class="bmd-label-floating">Số lượng sinh viên tham gia</label>
-                      <input id="quantity" name="entry.635749895" type="number" placeholder="1000" class="form-control bmd-label-floating" required>
+                      <label for="nguoi_bc" class="bmd-label-floating">Người thực hiện đăng ký</label>
+                      <input id="nguoi_bc" name="entry.635749895" type="text" placeholder="Nguyễn Văn A" class="form-control bmd-label-floating" required>
                       <span class="form-message"></span>
-                    </div>
-            
+                    </div> 
+
                     <div class="form-group">
-                      <label for="organize" class="bmd-label-floating">Đơn vị</label>
-                      <select id="organize" name="entry.185259288" class="form-control bmd-label-floating" required style="line-height: 20px;">
-                        <option value="">- - -Chọn Khoa- - -</option>
-                        <option>KHOA ĐÀO TẠO CHẤT LƯỢNG CAO</option>
-                        <option>KHOA ĐIỆN – ĐIỆN TỬ</option>
-                        <option>KHOA CƠ KHÍ CHẾ TẠO MÁY</option>
-                        <option>KHOA CƠ KHÍ ĐỘNG LỰC</option>
-                        <option>KHOA KINH TẾ</option>
-                        <option>KHOA XÂY DỰNG</option>
-                        <option>KHOA CÔNG NGHỆ THÔNG TIN</option>
-                        <option>KHOA CÔNG THỜI TRANG VÀ DU LỊCH</option>
-                        <option>KHOA CÔNG NGHỆ HÓA HỌC VÀ THỰC PHẨM</option>
-                        <option>KHOA IN – TRUYỀN THÔNG</option>
-                        <option>KHOA KHOA HỌC ỨNG DỤNG</option>
-                        <option>KHOA NGOẠI NGỮ</option>
-                        <option>LCH SINH VIÊN NGOẠI TRÚ</option>
-                        <option>LCH KÝ TÚC XÁ</option>
-                      </select>
+                      <label for="chucvu" class="bmd-label-floating">Chức vụ</label>
+                      <input id="chucvu" name="entry.635749895" type="text" placeholder="Chủ nhiệm" class="form-control bmd-label-floating" required>
                       <span class="form-message"></span>
-                    </div>
-            
+                    </div> 
+
                     <div class="form-group">
-                      <label for="password" class="bmd-label-floating">Mã số sinh viên</label>
-                      <input id="password" name="entry.1201888199" type="number" placeholder="20110243" class="form-control" required>
+                      <label for="email" class="bmd-label-floating">Email</label>
+                      <input id="email" name="entry.635749895" type="email" placeholder="12345678@student.hcmute.edu.vn" class="form-control bmd-label-floating" required>
                       <span class="form-message"></span>
-                    </div>
-                    
+                    </div> 
+
                     <div class="form-group">
-                      <label for="activity" class="bmd-label-floating">Mô tả hoạt động</label>
-                      <textarea id="activity" name="entry.271436939" class="form-control" rows="5" placeholder="Viết mô tả hoạt động chương trình của bạn ở đây..." required></textarea>
+                      <label for="dexuat" class="bmd-label-floating">Đề xuất - Góp ý (Nếu có)</label>
+                      <textarea id="dexuat" name="entry.271436939" class="form-control" rows="5"></textarea>
                       <span class="form-message"></span>
                     </div>
                     <button type="submit"class="btn btn-primary pull-right">Nộp</button>
-                    
                   </form>
                 </div>
               </div>
