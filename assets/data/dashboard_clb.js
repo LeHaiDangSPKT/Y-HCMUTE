@@ -4,99 +4,71 @@ function list_clb(ob) {
             fullname: 'ABC',
             quantity: '1000',
             organize: 'CNTT',
-            password: '20110243',
-            activity: 'ABC'
         },
         {
             fullname: 'ABC',
             quantity: '1000',
             organize: 'CNTT',
-            password: '20110243',
-            activity: 'ABC'
         },
         {
             fullname: 'ABC',
             quantity: '1000',
             organize: 'CNTT',
-            password: '20110243',
-            activity: 'ABC'
         },
         {
             fullname: 'ABC',
             quantity: '1000',
             organize: 'CNTT',
-            password: '20110243',
-            activity: 'ABC'
         },
         {
             fullname: 'ABC',
             quantity: '1000',
             organize: 'CNTT',
-            password: '20110243',
-            activity: 'ABC'
         },
         {
             fullname: 'ABC',
             quantity: '1000',
             organize: 'CNTT',
-            password: '20110243',
-            activity: 'ABC'
         },
         {
             fullname: 'ABC',
             quantity: '1000',
             organize: 'CNTT',
-            password: '20110243',
-            activity: 'ABC'
         },
         {
             fullname: 'ABC',
             quantity: '1000',
             organize: 'CNTT',
-            password: '20110243',
-            activity: 'ABC'
         },
         {
             fullname: 'ABC',
             quantity: '1000',
             organize: 'CNTT',
-            password: '20110243',
-            activity: 'ABC'
         },
         {
             fullname: 'ABC',
             quantity: '1000',
             organize: 'CNTT',
-            password: '20110243',
-            activity: 'ABC'
         },
         {
             fullname: 'ABC',
             quantity: '1000',
             organize: 'CNTT',
-            password: '20110243',
-            activity: 'ABC'
         },
         {
             fullname: 'ABC',
             quantity: '1000',
             organize: 'CNTT',
-            password: '20110243',
-            activity: 'ABC'
         },
         {
             fullname: 'ABC',
             quantity: '1000',
             organize: 'CNTT',
-            password: '20110243',
-            activity: 'ABC'
         },
         {
             fullname: 'ABC',
             quantity: '1000',
             organize: 'CNTT',
-            password: '20110243',
-            activity: 'ABC'
         },
     ]
 }
