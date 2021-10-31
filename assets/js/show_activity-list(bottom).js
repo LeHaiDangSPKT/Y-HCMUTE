@@ -10,7 +10,7 @@ const app = {
             <div class="card card-stats recommend">
                 <img ${item.img}>
                 <div class="sub">
-                    <a href="" style="font-weight: 500; color: black;">${item.title}</a>
+                    <a href="${item.address}" style="font-weight: 500; color: black;">${item.title}</a>
                     <div>${item.sub}</div>
                 </div>
             </div>
