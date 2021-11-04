@@ -2315,6 +2315,8 @@ pre code {
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
   -ms-overflow-style: -ms-autohiding-scrollbar;
+  max-height: 68vh;
+  overflow-y: scroll;
 }
 
 .table-responsive>.table-bordered {
@@ -17723,10 +17725,7 @@ html[dir="rtl"] .form-check .form-check-sign .check:before {
   position: relative;
 }
 
-.table-responsive {
-  max-height: 68vh;
-  overflow-y: scroll;
-}
+
 .card .card-body .form-group {
   margin: 8px 0 0;
 }
