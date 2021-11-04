@@ -243,14 +243,14 @@ The above copyright notice and this permission notice shall be included in all c
             <div class="col-md-8">
               <div class="card">
                 <div class="card-body">
-                  <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSeQsfJ592J7OlEynHh98miBV-lmEp0nQ6CPUl0zJU5352B1Og/formResponse" method="PUSH" class="form" onsubmit="submitForm()">      
+                  <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScYKDkyBw5LndOaGU-2jcPnZiXJKo-V2677rzQUSOSUEo5nzw/formResponse" method="push" class="form" onsubmit="submitForm()">      
           
                     <div class="form-group">
                       <label for="organize" class="bmd-label-floating">Đơn vị</label>
                       <select id="organize" name="entry.184771433" class="form-control bmd-label-floating" required style="line-height: 20px;">
                         <option value="">- - -Chọn Đơn Vị- - -</option>
-                        <option>LCH khoa Ngoại Ngữ</option>
-                        <option>LCH khoa Đào tạo Chất kượng cao</option>
+                        <option>LCH khoa Ngoại ngữ</option>
+                        <option>LCH khoa Đào tạo Chất lượng cao</option>
                         <option>LCH khoa Cơ khí Chế tạo máy</option>
                         <option>LCH khoa Điện - Điện tử</option>
                         <option>LCH khoa Cơ khí Động lực</option>
@@ -263,7 +263,7 @@ The above copyright notice and this permission notice shall be included in all c
                         <option>LCH khoa Khoa học ứng dụng</option>
                         <option>LCH SV Ký túc xá</option>
                         <option>LCH SV Ngoại trú</option>
-                        <option>LCH Kỹ năng</option>
+                        <option>CLB Kỹ năng</option>
                         <option>Đội Công tác xã hội</option>
                         <option>CLB Nghiên cứu khoa học</option>
                         <option>CLB Thể thao điện tử</option>
@@ -298,8 +298,8 @@ The above copyright notice and this permission notice shall be included in all c
                       <label for="cap" class="bmd-label-floating">Nội dung báo cáo cấp nào</label>
                       <select id="cap" name="entry.1380525931" class="form-control bmd-label-floating" required style="line-height: 20px;">
                         <option value="">- - -Chọn- - -</option>
-                        <option>Cấp trường</option>
-                        <option>Cấp cơ sở</option>
+                        <option>CẤP TRƯỜNG</option>
+                        <option>CẤP CƠ SỞ</option>
                       </select>
                     </div> 
 
@@ -310,7 +310,7 @@ The above copyright notice and this permission notice shall be included in all c
 
                     <div class="form-group">
                       <label for="activity" class="bmd-label-floating">Các nội dung hoạt động trong tháng</label>
-                      <span class="form-message">* Lưu ý: mỗi hoạt động bắt buộc phải có số lượng sinh viên tham gia.</span>
+                      <span class="form-message">Mỗi gạch đầu dòng là một chương trình. Nêu rõ - Tên chương trình (ngày/tháng/năm tổ chức, số lượng sinh viên tham gia) sơ lược kết quả của chương trình.</span>
                       <textarea id="activity" name="entry.616400261" class="form-control" rows="5" placeholder="Viết mô tả hoạt động chương trình của bạn ở đây..." required></textarea>
                     </div>
 
@@ -677,30 +677,13 @@ The above copyright notice and this permission notice shall be included in all c
   </script>
   
   <script >
-    function submitForm() {
-      var fn = document.getElementById("fullname").value;
-      var qt = document.getElementById("quantity").value;
-      var og = document.getElementById("organize").value;
-      var pw = document.getElementById("password").value;
-      var av = document.getElementById("activity").value;
-
-      var ob = {
-        fullname: fn,
-        quantity: qt,
-        organize: og,
-        password: pw,
-        activity: av
-      }
-      
+    function submitForm() {    
       window.alert("Gửi thành công!");
       window.open('./dashboard.html')
-      }
+    }
   </script>
-  <script type="module">
-    import list_school from '../assets/data/dashboard_school.js'
-    var arrSchool =  Object.values(list_school())
-    console.log(list_school())
-  </script>
+
 </body>
 
 </html>
+
