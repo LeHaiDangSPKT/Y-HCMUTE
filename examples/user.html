@@ -70,9 +70,12 @@ The above copyright notice and this permission notice shall be included in all c
     }
 
     .form-message {
-        font-size: 0.8rem;
-        line-height: 0.8rem;
-        padding: 10px 0 0;
+        font-size: 12px;
+        line-height: 14px;
+        padding-top: 0;
+        color: #636d77;
+        font-style: italic;
+
     }
      .form-group .form-control > option {
       font-size: 1rem;
@@ -271,7 +274,6 @@ The above copyright notice and this permission notice shall be included in all c
                         <option>CLB Ảo thuật</option>
                         <option>CLB Anh văn giao tiếp - ESC</option>
                       </select>
-                      <span class="form-message"></span>
                     </div>
 
                     
@@ -292,7 +294,6 @@ The above copyright notice and this permission notice shall be included in all c
                         <option>Tháng 6/2022</option>
                       </select>
                     </div> 
-            
                     <div class="form-group">
                       <label for="cap" class="bmd-label-floating">Nội dung báo cáo cấp nào</label>
                       <select id="cap" name="entry.1380525931" class="form-control bmd-label-floating" required style="line-height: 20px;">
@@ -300,52 +301,39 @@ The above copyright notice and this permission notice shall be included in all c
                         <option>Cấp trường</option>
                         <option>Cấp cơ sở</option>
                       </select>
-                      <span class="form-message"></span>
                     </div> 
 
                     <div class="form-group">
                       <label for="tong_hd" class="bmd-label-floating">Tổng hoạt động báo cáo</label>
                       <input id="tong_hd" name="entry.666167978" type="number" placeholder="5" class="form-control bmd-label-floating" required>
-                      <span class="form-message"></span>
-                    </div> 
-
-                    <div class="form-group">
-                      <label for="tong_sv" class="bmd-label-floating">Số lượng sinh viên tham gia</label>
-                      <input id="tong_sv" name="entry.1838658703" type="number" placeholder="2000" class="form-control bmd-label-floating" required>
-                      <span class="form-message"></span>
-                    </div> 
+                    </div>
 
                     <div class="form-group">
                       <label for="activity" class="bmd-label-floating">Các nội dung hoạt động trong tháng</label>
+                      <span class="form-message">* Lưu ý: mỗi hoạt động bắt buộc phải có số lượng sinh viên tham gia.</span>
                       <textarea id="activity" name="entry.616400261" class="form-control" rows="5" placeholder="Viết mô tả hoạt động chương trình của bạn ở đây..." required></textarea>
-                      <span class="form-message"></span>
                     </div>
 
                     <div class="form-group">
                       <label for="nguoi_bc" class="bmd-label-floating">Người thực hiện báo cáo</label>
                       <input id="nguoi_bc" name="entry.1196275899" type="text" placeholder="Nguyễn Văn A" class="form-control bmd-label-floating" required>
-                      <span class="form-message"></span>
                     </div> 
 
                     <div class="form-group">
                       <label for="chucvu" class="bmd-label-floating">Chức vụ</label>
                       <input id="chucvu" name="entry.291917626" type="text" placeholder="Chủ nhiệm" class="form-control bmd-label-floating" required>
-                      <span class="form-message"></span>
                     </div> 
 
                     <div class="form-group">
                       <label for="email" class="bmd-label-floating">Email</label>
                       <input id="email" name="entry.336463248" type="email" placeholder="12345678@student.hcmute.edu.vn" class="form-control bmd-label-floating" required>
-                      <span class="form-message"></span>
                     </div> 
 
                     <div class="form-group">
                       <label for="dexuat" class="bmd-label-floating">Đề xuất - Góp ý (Nếu có)</label>
                       <textarea id="dexuat" name="entry.158349512" class="form-control" rows="5"></textarea>
-                      <span class="form-message"></span>
                     </div>
                     <button type="submit"class="btn btn-primary pull-right">Nộp</button>
-                    
                   </form>
                 </div>
               </div>
