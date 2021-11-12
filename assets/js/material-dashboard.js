@@ -297,7 +297,7 @@ md = {
       var dataWebsiteViewsChart = {
         labels: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12'],
         series: [
-          [0, 443, 320, 780, 553, 453, 326, 434, 568, 610, 756, 895]
+          [1, 443, 320, 780, 553, 453, 326, 434, 568, 610, 756, 895]
     
         ]
       };
@@ -306,7 +306,7 @@ md = {
           showGrid: false
         },
         low: 0,
-        high: 1000,
+        high: 20,
         chartPadding: {
           top: 0,
           right: 5,
@@ -340,7 +340,7 @@ md = {
           showGrid: false
         },
         low: 0,
-        high: 1000,
+        high: 20,
         chartPadding: {
           top: 0,
           right: 5,
@@ -379,7 +379,7 @@ md = {
           showGrid: false
         },
         low: 0,
-        high: 1000,
+        high: 20,
         chartPadding: {
           top: 0,
           right: 5,
