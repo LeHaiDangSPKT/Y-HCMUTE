@@ -36,10 +36,10 @@
     </head>
     <body>
         <!-- Masthead-->
-        <form class="masthead" onsubmit="onSubmit()">
+        <form class="masthead">
             <div class="container">
                 <input class="code" type="text" placeholder="Nhập code ở đây...">
-                <button class="submit" type="submit">SUBMIT</button>
+                <button onclick="onSubmit()" class="submit" type="button">SUBMIT</button>
             </div>
         </form>
     </body>
@@ -53,11 +53,11 @@
                 })
             }
             if (check(arr, giatri)) {
-                window.location.href = 'http://www.google.com';
+                window.location.replace('./dkhd.html');
             } 
             else {
                 window.alert('Bạn nhập sai mã code, trở về trang chủ...')
-                window.open('./dashboard.html')
+                window.location.replace('./dashboard.html');
             }
         }
     </script>

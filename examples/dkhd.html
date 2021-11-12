@@ -249,7 +249,7 @@ The above copyright notice and this permission notice shall be included in all c
             <div class="col-md-8">
               <div class="card">
                 <div class="card-body">
-                  <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSf_DoXnWfzcvyZ7Y_wpdS0YQcFUz3v2mgG19lHy6al7JYWXdg/formResponse" method="push" class="form" onsubmit="submitForm()">      
+                  <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSf_DoXnWfzcvyZ7Y_wpdS0YQcFUz3v2mgG19lHy6al7JYWXdg/formResponse" method="push" class="form" target="_parent">      
             
                     <div class="form-group">
                       <label for="organize" class="bmd-label-floating">Đơn vị</label>
@@ -347,7 +347,7 @@ The above copyright notice and this permission notice shall be included in all c
                       <textarea id="dexuat" name="entry.158349512" class="form-control" rows="5"></textarea>
                       <span class="form-message"></span>
                     </div>
-                    <button type="submit"class="btn btn-primary pull-right">Nộp</button>
+                    <button onclick="submitForm()" type="submit"class="btn btn-primary pull-right">Nộp</button>
                   </form>
                 </div>
               </div>
@@ -693,7 +693,7 @@ The above copyright notice and this permission notice shall be included in all c
   <script >
     function submitForm() {
       window.alert("Gửi thành công!");
-      window.open('./dashboard.html')
+      window.location.replace('./dashboard.html');
     }
   </script>
 </body>
