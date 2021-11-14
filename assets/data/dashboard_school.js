@@ -119,7 +119,7 @@ function list_school(ob) {
             fullname: 'Chuỗi sự kiện chào đón Tân sinh viên K21',
             quantity: '0',
             organize: 'Đội Công tác xã hội',
-        },
+        }
     ]
 }
 
