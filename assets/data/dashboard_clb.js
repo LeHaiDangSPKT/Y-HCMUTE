@@ -117,7 +117,7 @@ function list_clb(ob) {
         },
         {
             fullname: 'Tổ chức hoạt động Dance Cover "VietNam With Love" ',
-            quantity: '1000',
+            quantity: '0',
             organize: 'CLB Anh văn giao tiếp - ESC',
         },
         {
@@ -344,7 +344,7 @@ function list_clb(ob) {
             fullname: ' Tuyển Cộng tác viên Đoàn - Hội khoa Cơ khí Chế tạo máy',
             quantity: '0',
             organize: 'LCH khoa Cơ khí Chế tạo máy',
-        },
+        }
     ]
 }
 
