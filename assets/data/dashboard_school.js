@@ -7,7 +7,7 @@ function list_school(ob) {
         },
         {
             fullname: 'ABC',
-            quantity: '1000',
+            quantity: '0',
             organize: 'CNTT',
         },
         {
