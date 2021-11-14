@@ -1,40 +1,16 @@
 function show_ac() {
     return show_ac = [
-         {
-            fullname: 'Tổ chức Tuần lễ tuyên dương FFL Awards',
-            organize: 'LCH khoa Ngoại ngữ',
-            time: '25/10/2021'
-        },
-        {
-            fullname: 'Tổ chức Hội nghị kiện toàn nhân sự BCH LCH',
-            organize: 'LCH khoa Ngoại ngữ',
-            time: '25/10/2021'
-        },
-        {
-            fullname: ' Tổ chức Cuộc thi The Great Debater ',
-            organize: 'LCH khoa Ngoại ngữ',
-            time: '25/10/2021'
-        },
         {
             fullname: 'CHƯƠNG TRÌNH BỒI DƯỠNG KIẾN THỨC [ SPECIALIZED KNOWLEDGE TRAINING COURSE ]',
             organize: 'LCH khoa Điện - Điện tử',
             time: ''
         },
         {
-            fullname: 'Tổ chức cuộc thi online “Khoảnh khắc sinh viên”',
-            organize: 'LCH khoa Đào tạo Chất lượng cao',
-            time: '27/10/2021'
-        },
-        {
             fullname: ' Cuộc thi online “Dòng thư gửi thầy” năm 2021',
             organize: 'LCH khoa Đào tạo Chất lượng cao',
             time: '10/11/2021'
         },
-        {
-            fullname: 'Tổ chức Hội nghị LCH Khoa Đào tạo Chất lượng cao nhiệm kỳ 2020- 2023 lần 3',
-            organize: 'LCH khoa Đào tạo Chất lượng cao',
-            time: '31/10/2021'
-        },
+      
         {
             fullname: 'Cuộc thi online “ Volunteer in my heart”',
             organize: 'LCH khoa Đào tạo Chất lượng cao',
@@ -51,44 +27,16 @@ function show_ac() {
             time: '07/11/2021'
         },
         {
-            organize: 'Tiếp tục tổ chức vòng Team Building',
-            fullname: 'LCH khoa Kinh tế',
-            time: '26/10/2021'
-        },
-        {
-            fullname: ' Tiếp tục tổ chức vòng phỏng vấn Face to Face',
-            organize: 'LCH khoa Kinh tế',
-            time: '31/10/2021'
-        },
-        {
             fullname: 'Tiếp tục tổ chức vòng “Tập sự”',
             organize: 'LCH khoa Kinh tế',
             time: '04/11/2021'
         },
         {
-            fullname: 'Tổ chức tuyển thành viên ULSC nhiệm kỳ 2021 - 2022',
-            organize: 'LCH khoa Kinh tế',
-            time: '25/09/2021'
-        },
-        {
-            fullname: 'Lên các bài về học thuật ngành Logistics & Supply Chain Management',
-            organize: 'LCH khoa Kinh tế',
-            time: '09/2021'
-        },
-        {
             fullname: '“Kỹ Năng radio”',
             organize: 'CLB Kỹ năng',
             time: ''
-        }, {
-            fullname: 'Sinh hoạt định kỳ chủ đề “Karaoke cùng Kỹ Năng”',
-            organize: 'CLB Kỹ năng',
-            time: '21/10/2021'
         },
-        {
-            fullname: 'Sinh hoạt định kỳ chủ đề “Halloween” ',
-            organize: 'CLB Kỹ năng',
-            time: '28/10/2021'
-        },
+        
         {
             fullname: 'Sinh hoạt định kỳ chủ đề “Tự do”',
             organize: 'CLB Kỹ năng',
@@ -99,26 +47,13 @@ function show_ac() {
             organize: 'CLB Kỹ năng',
             time: '11/11/2021'
         },
-        {
-            fullname: '“Tập thể dục cùng Kỹ Năng”',
-            organize: 'CLB Kỹ năng',
-            time: '23/10/2021'
-        },
-        {
-            fullname: 'Đăng bài truyền thông về Hội Sinh viên trường',
-            organize: 'CLB Guitar',
-            time: '19/10/2021'
-        },
+       
         {
             fullname: 'Tổ chức tuyển chọn thành viên Ban Truyền thông CLB Guitar SPKT',
             organize: 'CLB Guitar',
             time: '02/11/2021'
         },
-        {
-            fullname: 'Tọa đàm chuyên đề "Kỹ năng học tập giao tiếp và bảo mật thông tin của sinh viên"',
-            organize: 'LCH khoa Xây dựng',
-            time: '20/10/2021'
-        },
+      
         {
             fullname: 'Tổ chức cuộc thi "On The Mic"',
             organize: 'LCH khoa Cơ khí Động lực',
@@ -128,21 +63,6 @@ function show_ac() {
             fullname: ' Tổ chức kiện toàn BCH Đoàn - Hội khoa CNTT ',
             organize: 'LCH khoa Công nghệ Thông tin',
             time: ''
-        },
-        {
-            fullname: 'Tổ chức Vòng Casting tuyển thành viên MCUTE',
-            organize: 'CLB Người dẫn chương trình',
-            time: '19/10/2021'
-        },
-        {
-            fullname: 'Hội thảo về “Các kỹ năng ki học tập online”',
-            organize: 'LCH khoa In và Truyền thông',
-            time: '10/2021'
-        },
-        {
-            fullname: 'Tổ chức tập huấn Cán bộ Đoàn – Hội, Tuyển công tác viên ',
-            organize: 'LCH khoa In và Truyền thông',
-            time: '10/2021'
         },
         {
             fullname: 'Hưởng ứng chào mừng ngày Nhà giáo Việt Nam ',
@@ -203,21 +123,6 @@ function show_ac() {
             fullname: 'Dự kiến tổ chức chương trình "tập huấn ctv_cán bộ nguồn"',
             organize: 'LCH khoa Khoa học ứng dụng',
             time: '11/2021'
-        },
-        {
-            fullname: 'Lễ kỷ niệm 26 năm ngày thành lập Đội Công tác Xã Hội SPKT',
-            organize: 'Đội Công tác xã hội',
-            time: '19/10/2021'
-        },
-        {
-            fullname: 'Tổ chức buổi chuyên đề Tính thực chiến Vovinam - bàn luận Võ Đạo mùa Covid',
-            organize: 'CLB Vovinam',
-            time: '24/10/2021'
-        },
-        {
-            fullname: 'Tổ chức hoạt động 20/10 cho các bạn nữ CLB',
-            organize: 'CLB Vovinam',
-            time: '20/10/2021'
         },
         {
             fullname: 'Tổ chức chuỗi hoạt động Chào mừng ngày 20/11/2021',
